@@ -60,16 +60,19 @@ a.button:hover{
 	text-decoration: none;
 	background: #b7dec7;
 }
-.bg-button, .bg-content{
+.bg-button, .wh-bg-content{
 	width: 70%;
     margin: 0 auto;
     background: #fff;
-    padding-top: 40px;
 }
-.bg-content{
+.bg-button{
+	padding-top: 40px;
+}
+.wh-bg-content{
 	padding-top: 0px;
 	color: #636363;
 	height: 100%;
+	display: inline-table;
 }
 .text-white{
 	color: #fff;
